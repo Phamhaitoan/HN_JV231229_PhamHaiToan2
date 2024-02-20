@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+body{
+  background: lightseagreen;
+  text-align: center;
+  padding: 20px;
+}
+h2{
+  font-size: 40px;
+  margin: 30px;
+}
+h2:hover{
+  color: aqua;
+  transition-duration: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+input {   
+  margin: 10px 20px;
+  height: 25px;
+  width: 100%;
+  padding: 10px;
+}
+.btnadd {
+  color: white;
+  background-color: blue;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+}
+#btn-submit{
+  background-color:brown;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: 300;
+ 
+}
+th,
+td {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  background-color: deepskyblue;
+  text-align: center;
+  border: 1px solid black;
+  overflow: auto;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #6f6868; 
+}
+.btndel {
+  color: rgb(37, 21, 21);
+  background-color: lightcoral;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+}
+.btnupdate {
+  color: rgb(23, 20, 20);
+  background-color: lightgreen;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+}
